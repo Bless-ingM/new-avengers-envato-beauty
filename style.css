@@ -1,0 +1,130 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a{
+    background-color: #fff;
+    color: #343434;
+}
+.navbar-nav .nav-item  a.nav-link.active{
+    color:  #E32578;
+}
+button.btn,
+a.btn{
+    background: #E95294;
+    color: #fff;
+}
+button.btn:hover,
+a.btn:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(./images/girl.png);
+    /* height: 100vh; */
+    background-size: cover;
+    padding-top:35vh ;
+    padding-bottom: 35vh;
+}
+.hero2{
+    background-image: linear-gradient(rgba(227, 37, 120, 0.85),rgba(227, 37, 120, 0.85) ), url(./images/or.png);
+    /* height: 100vh; */
+    background-size: cover;
+    padding-top:10vh ;
+    padding-bottom: 10vh;
+}
+a.organic{
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.product{
+    transition: .4s ease;
+}
+.product img{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.product:hover{
+    transform: translateY(-10px) scale(1.02);
+    /* background: rgba(233, 82, 148, 0.3); */
+    color:  #E32578;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+.cos{
+    padding-top:5vh ;
+    padding-bottom:5vh ;
+    background: #E9E1DF;
+}
+
+.ill{
+    background: #BDB2DC;
+    color: #fff;
+}
+.ill h6{
+    font-size: 1.3rem;
+    color: #E95294;
+
+}
+.traditional h5{
+    font-weight: 500;
+    color: #E95294;
+    letter-spacing: 0.2px;
+}
+.traditional h2{
+    font-weight: 600;
+    color:  #343434;;
+}
+.traditional p{
+    color: #343434;
+    font-size: 18px;
+line-height: 33px;
+line-height: 18px;
+letter-spacing: 0.2px
+}
+.traditional small{
+    color: #9C9B9B;
+   
+}
+footer{
+    background:  #E32578;;
+}
+@media (max-width: 767.98px) { 
+  .hero img{
+    width: 50%;
+    
+  }   
+  .card{
+      margin: 2em 0;
+  }
+  .traditional h5,h2,p,small{
+      text-align: left;
+  }
+  .cos .packs{
+     max-width: 450px;
+  }
+  .traditional .opp{
+      display: flex;
+      flex-direction: column-reverse;
+
+  }
+  footer{
+  
+      display: flex;  
+      flex-direction: column;
+
+    }
+    footer .right{
+     
+        text-align: left;  
+  }
+  .ill .beauty{
+     max-width: 450px;
+
+  }
+  .ill h6{
+      text-align: left;
+  }
+  
+}
