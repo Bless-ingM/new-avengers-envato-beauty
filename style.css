@@ -35,6 +35,9 @@ a.btn:hover{
     padding-top:10vh ;
     padding-bottom: 10vh;
 }
+.navbar-nav .nav-item a.nav-link{
+    padding: 0 1em 0 1em;
+}
 a.organic{
     border: 2px solid #fff;
     background: transparent;
@@ -91,6 +94,10 @@ footer{
     background:  #E32578;;
 }
 @media (max-width: 767.98px) { 
+    .navbar-nav .nav-item a.nav-link{
+        padding: 0;
+        
+    }
   .hero img{
     width: 50%;
     
@@ -123,8 +130,9 @@ footer{
      max-width: 450px;
 
   }
-  .ill h6{
-      text-align: left;
-  }
+ 
+  .ill p, .illu h2{
+    text-align: right;
+}
   
 }
