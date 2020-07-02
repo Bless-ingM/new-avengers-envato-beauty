@@ -70,6 +70,10 @@ a.organic{
     color: #E95294;
 
 }
+.cos button, .ill button{
+    max-width: 200px;
+    width: 100%;
+}
 .traditional h5{
     font-weight: 500;
     color: #E95294;
@@ -116,6 +120,7 @@ footer{
       flex-direction: column-reverse;
 
   }
+  
   footer{
   
       display: flex;  
@@ -132,7 +137,7 @@ footer{
   }
  
   .ill p, .illu h2{
-    text-align: right;
+    text-align: left;
 }
   
 }
