@@ -35,9 +35,6 @@ a.btn:hover{
     padding-top:10vh ;
     padding-bottom: 10vh;
 }
-.navbar-nav .nav-item a.nav-link{
-    padding: 0 1em 0 1em;
-}
 a.organic{
     border: 2px solid #fff;
     background: transparent;
@@ -60,6 +57,13 @@ a.organic{
     padding-bottom:5vh ;
     background: #E9E1DF;
 }
+.cos button, .ill button{
+    max-width: 200px;
+    width: 100%;
+}
+.navbar-nav .nav-item a.nav-link{
+    padding: 0 1em 0 1em;
+}
 
 .ill{
     background: #BDB2DC;
@@ -69,10 +73,6 @@ a.organic{
     font-size: 1.3rem;
     color: #E95294;
 
-}
-.cos button, .ill button{
-    max-width: 200px;
-    width: 100%;
 }
 .traditional h5{
     font-weight: 500;
@@ -120,24 +120,19 @@ footer{
       flex-direction: column-reverse;
 
   }
-  
   footer{
-  
       display: flex;  
       flex-direction: column;
 
     }
     footer .right{
-     
         text-align: left;  
   }
-  .ill .beauty{
+  .ill .beauty{   
      max-width: 450px;
-
   }
- 
   .ill p, .illu h2{
-    text-align: left;
-}
+      text-align: right;
+  }
   
 }
